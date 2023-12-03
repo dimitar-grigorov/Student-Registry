@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    image: grigorov89/student:1.0.0
+    ports:
+      - "8081:8081"
+    environment:
+      - NODE_ENV=production
